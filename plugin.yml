@@ -1,0 +1,15 @@
+name: Fly
+author: Puyttre
+version: 1.3
+description: A lightweight simple Fly plugin.
+
+main: me.puyttre.fly.Fly
+
+commands:
+  fly:
+    description: Toggles fly.
+    usage: /<command> name
+    aliases: [setfly]
+  flytimer:
+    description: Allows a player to fly for a certain amount of time.
+    usage: /<command> name time
